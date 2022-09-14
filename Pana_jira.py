@@ -93,7 +93,7 @@ def connecttoPANAjira():
     #print("new_final_time", str(new_final_time))
     previous_date,previous_time = str(new_final_time).split(" ")
     jira_username = 'BP14507'
-    jira_password = 'Ficosavldc@001'
+    jira_password = 'Ficosavldc@2050'
     #jira_username = input("\nEnter  global ID:")
     #jira_password = input("\nEnter password for jira:")
     jira = JIRA('https://jira.pase.panasonic.de/', auth=(jira_username, jira_password))
